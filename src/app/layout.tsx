@@ -16,6 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;1,300&display=swap"
+        />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
